@@ -1,0 +1,55 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.t1{
+    margin-left: 400px;
+    width: 1000px;
+    height: 297px;
+    margin-left: 320px;
+    color: blue;
+    
+    } 
+input{
+    height: 50px;
+  border: 1px solid cadetblue;
+  width: 400px; 
+background-color: rgb(98, 98, 233);
+}
+::placeholder{
+    color: rgb(255, 255, 255);
+}
+.g{
+    margin-left: 88px;
+    background-color: rgb(98, 98, 233);
+    width: 200px;
+    height: 27px;
+}
+form{
+    border: 3px solid black;
+    display: flex; flex-direction: column; width: 406px; border-radius: 14px;
+}
+h1{
+    border: 3px solid black;
+    border-radius: 14px; 
+    background-color: rgb(98, 98, 233); 
+    color: rgb(255, 255, 255);
+}
+button{
+    margin-top: 10px;
+}
+@media screen and (max-width:1200px) 
+{
+    .t1{
+        margin: 0;
+        width: 100px;
+    }
+    input{
+        width:250px;
+    }
+    form{
+        width: 253px;
+    }
+}
